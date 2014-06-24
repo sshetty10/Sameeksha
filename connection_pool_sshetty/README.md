@@ -1,5 +1,5 @@
-# Opower Connection Pool Homework
-The Connection pooling application archive "connection_pool_sshetty.zip" has my Java implementations of the connection pooling homework assignment.
+#Connection Pooling
+The Connection pooling application archive "connection_pool_sshetty.zip" has my Java implementations of a thread safe connection pooling real world solution.
 The project architecture,features and working are present in this document.
 
 ## Instructions
