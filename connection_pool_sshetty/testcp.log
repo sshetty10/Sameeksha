@@ -1,0 +1,82 @@
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  DEBUG- Pools created :2
+[main] com.sshetty.connectionpool.tests.ConnectionPoolTest  INFO - Started Testing ConnPoolMySqlImpl
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  DEBUG- Pools created :2
+[main] com.sshetty.connectionpool.tests.ConnectionPoolTest  INFO - Started Testing ConnPoolMySqlImpl
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  DEBUG- Pools created :2
+[main] com.sshetty.connectionpool.tests.ConnectionPoolTest  INFO - Started Testing ConnPoolMySqlImpl
+[main] com.sshetty.connectionpool.parentimpl.ConnectionManagerSqlImpl  ERROR- com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  DEBUG- Pools created :2
+[main] com.sshetty.connectionpool.tests.ConnectionPoolTest  INFO - Started Testing ConnPoolMySqlImpl
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  INFO - ThreadId:1 Connection pool size for ds1 is :0
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  INFO - ThreadId:1 Connection Created New for ds1 is :0
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  INFO - ThreadId:1 Connection Used for ds1 is :0
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  DEBUG- Pools created :2
+[main] com.sshetty.connectionpool.tests.ConnectionPoolTest  INFO - Started Testing ConnPoolMySqlImpl
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  DEBUG- Check for available connections in the pool : true
+[main] com.sshetty.connectionpool.parentimpl.ConnectionManagerSqlImpl  ERROR- com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  ERROR- java.lang.NullPointerException
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  INFO - ThreadId:1 Connection pool size for ds1 is :0
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  INFO - ThreadId:1 Connection Created New for ds1 is :0
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  INFO - ThreadId:1 Connection Used for ds1 is :0
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  DEBUG- Pools created :2
+[main] com.sshetty.connectionpool.tests.ConnectionPoolTest  INFO - Started Testing ConnPoolMySqlImpl
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  INFO - ThreadId:1 Connection pool size for ds1 is :0
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  INFO - ThreadId:1 Connection Created New for ds1 is :0
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  INFO - ThreadId:1 Connection Used for ds1 is :0
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  DEBUG- Pools created :2
+[main] com.sshetty.connectionpool.tests.ConnectionPoolTest  INFO - Started Testing ConnPoolMySqlImpl
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  DEBUG- Pools created :2
+[main] com.sshetty.connectionpool.tests.ConnectionPoolTest  INFO - Started Testing ConnPoolMySqlImpl
+[main] com.sshetty.connectionpool.parentimpl.ConnectionManagerSqlImpl  ERROR- com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  INFO - ThreadId:1 Connection pool size for ds1 is :0
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  INFO - ThreadId:1 Connection Created New for ds1 is :0
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  INFO - ThreadId:1 Connection Used for ds1 is :0
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  DEBUG- Pools created :2
+[main] com.sshetty.connectionpool.tests.ConnectionPoolTest  INFO - Started Testing ConnPoolMySqlImpl
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  DEBUG- Pools created :2
+[main] com.sshetty.connectionpool.tests.ConnectionPoolTest  INFO - Started Testing ConnPoolMySqlImpl
+[main] com.sshetty.connectionpool.tests.ConnectionPoolTest  INFO - Inside ConnPoolMySqlImplTest.tearDown()
+[main] com.sshetty.connectionpool.tests.DbManagerTest  DEBUG- Start DbManager Test
+[main] com.sshetty.connectionpool.parentimpl.ConnectionManagerSqlImpl  ERROR- com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+[main] com.sshetty.connectionpool.tests.DbManagerTest  DEBUG- End DbManager Test
+[main] com.sshetty.connectionpool.tests.DbManagerTest  DEBUG- Start DbManager Test
+[main] com.sshetty.connectionpool.parentimpl.ConnectionManagerSqlImpl  ERROR- com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+[main] com.sshetty.connectionpool.service.DbManager  ERROR- java.sql.SQLException
+[main] com.sshetty.connectionpool.tests.DbManagerTest  DEBUG- End DbManager Test
+[main] com.sshetty.connectionpool.tests.DbManagerTest  DEBUG- Start DbManager Test
+[main] com.sshetty.connectionpool.parentimpl.ConnectionManagerSqlImpl  ERROR- com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+[main] com.sshetty.connectionpool.tests.DbManagerTest  DEBUG- End DbManager Test
+[main] com.sshetty.connectionpool.tests.DbManagerTest  DEBUG- Start DbManager Test
+[main] com.sshetty.connectionpool.parentimpl.ConnectionManagerSqlImpl  ERROR- com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+[main] com.sshetty.connectionpool.service.DbManager  ERROR- Error!!Connection could not be released back to the pool.
+[main] com.sshetty.connectionpool.tests.DbManagerTest  DEBUG- End DbManager Test
+[main] com.sshetty.connectionpool.tests.DbManagerTest  DEBUG- Start DbManager Test
+[main] com.sshetty.connectionpool.parentimpl.ConnectionManagerSqlImpl  ERROR- com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+[main] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager  DEBUG- Pools created :2
+[main] com.sshetty.connectionpool.tests.DbManagerTest  DEBUG- End DbManager Test
+[main] com.sshetty.connectionpool.tests.DbManagerTest  DEBUG- Start DbManager Test
+[main] com.sshetty.connectionpool.parentimpl.ConnectionManagerSqlImpl  ERROR- com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+[main] com.sshetty.connectionpool.tests.DbManagerTest  DEBUG- End DbManager Test
+[main] com.sshetty.connectionpool.tests.DbManagerTest  DEBUG- Start DbManager Test
+[main] com.sshetty.connectionpool.parentimpl.ConnectionManagerSqlImpl  ERROR- com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+[main] com.sshetty.connectionpool.tests.DbManagerTest  DEBUG- End DbManager Test

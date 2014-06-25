@@ -5,16 +5,16 @@ The project architecture,features and working are present in this document.
 ## Instructions
 1. Project Architecture
 	a. src/main/java
-		i. com.opower.connectionpool.controllers
-			-OpowerCpController.java (Main class)
+		i. com.sshetty.connectionpool.controllers
+			-BasicCpController.java (Main class)
 			-RunnableDbCp.java (Multithreaded Implementation of the main class)
-		ii.com.opower.connectionpool.parent
+		ii.com.sshetty.connectionpool.parent
 			-ConnectionPool.java (Interface) - provides connection pooling methods interface
 			-ConnectionManager.java (Abstract class) - provides DB paramaters and DB connection functionality
-		iii.com.opower.connectionpool.parentImpl
+		iii.com.sshetty.connectionpool.parentImpl
 			-ConnectionPoolManager.java (Implementation class for ConnectionPool.java)
 			-ConnectionManagerSqlImpl.java (Child class of ConnectionManager, implements the abstract method createConnection )
-		iv.com.opower.connectionpool.service
+		iv.com.sshetty.connectionpool.service
 			-DbManager.java (Implements all the dao functionalities, called from the main method.)
 	b. 	src/main/resources
 		i.  log4j.properties-configurable paramters for application logging

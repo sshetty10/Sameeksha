@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="3" time="0.313" errors="0" skipped="0" tests="10" name="com.sshetty.connectionpool.tests.ConnectionPoolTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.65-b04-462"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M4609"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/Sameeksha/Github/Sameeksha/connection_pool_sshetty"/>
+    <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/Sameeksha/Github/Sameeksha/connection_pool_sshetty"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/Sameeksha/Github/Sameeksha/connection_pool_sshetty/target/surefire/surefirebooter6955525895551686385.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/1g/smg8wsl5279fcwgb9rrx8phm0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="surefire.test.class.path" value="/Users/Sameeksha/Github/Sameeksha/connection_pool_sshetty/target/test-classes:/Users/Sameeksha/Github/Sameeksha/connection_pool_sshetty/target/classes:/Users/Sameeksha/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar:/Users/Sameeksha/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/Sameeksha/.m2/repository/commons-lang/commons-lang/2.3/commons-lang-2.3.jar:/Users/Sameeksha/.m2/repository/org/easymock/easymock/3.0/easymock-3.0.jar:/Users/Sameeksha/.m2/repository/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar:/Users/Sameeksha/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar:/Users/Sameeksha/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/Sameeksha/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.9.3"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/Sameeksha"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="Sameeksha"/>
+    <property name="java.class.path" value="/Users/Sameeksha/Github/Sameeksha/connection_pool_sshetty/target/test-classes:/Users/Sameeksha/Github/Sameeksha/connection_pool_sshetty/target/classes:/Users/Sameeksha/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar:/Users/Sameeksha/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/Sameeksha/.m2/repository/commons-lang/commons-lang/2.3/commons-lang-2.3.jar:/Users/Sameeksha/.m2/repository/org/easymock/easymock/3.0/easymock-3.0.jar:/Users/Sameeksha/.m2/repository/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar:/Users/Sameeksha/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar:/Users/Sameeksha/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/Sameeksha/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="/Users/Sameeksha/Github/Sameeksha/connection_pool_sshetty/target/surefire/surefirebooter6955525895551686385.jar /Users/Sameeksha/Github/Sameeksha/connection_pool_sshetty/target/surefire/surefire4348619811970549287tmp /Users/Sameeksha/Github/Sameeksha/connection_pool_sshetty/target/surefire/surefire33869095625723277tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_65"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="localRepository" value="/Users/Sameeksha/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_65-462"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.018" classname="com.sshetty.connectionpool.tests.ConnectionPoolTest" name="purgeConnectionsNegative"/>
+  <testcase time="0.001" classname="com.sshetty.connectionpool.tests.ConnectionPoolTest" name="getStatisticsNegative"/>
+  <testcase time="0.168" classname="com.sshetty.connectionpool.tests.ConnectionPoolTest" name="testCreateConnectionTruePositive">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertNotNull(Assert.java:621)
+	at org.junit.Assert.assertNotNull(Assert.java:631)
+	at com.sshetty.connectionpool.tests.ConnectionPoolTest.testCreateConnectionTruePositive(ConnectionPoolTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:119)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</failure>
+    <system-out>[22:38:23] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager.createConnectionPools(ConnectionPoolManager.java:227) [DEBUG][main]- Pools created :2
+[22:38:23] com.sshetty.connectionpool.tests.ConnectionPoolTest.initialSetUp(ConnectionPoolTest.java:38) [INFO ][main]- Started Testing ConnPoolMySqlImpl
+[22:38:23] com.sshetty.connectionpool.parentimpl.ConnectionManagerSqlImpl.createConnection(ConnectionManagerSqlImpl.java:33) [ERROR][main]- com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+</system-out>
+  </testcase>
+  <testcase time="0.002" classname="com.sshetty.connectionpool.tests.ConnectionPoolTest" name="testReleaseConnectionIfNull"/>
+  <testcase time="0.008" classname="com.sshetty.connectionpool.tests.ConnectionPoolTest" name="testGetConnectionTruePositive">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertNotNull(Assert.java:621)
+	at org.junit.Assert.assertNotNull(Assert.java:631)
+	at com.sshetty.connectionpool.tests.ConnectionPoolTest.testGetConnectionTruePositive(ConnectionPoolTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:119)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</failure>
+    <system-out>[22:38:23] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager.createConnectionPools(ConnectionPoolManager.java:227) [DEBUG][main]- Pools created :2
+[22:38:23] com.sshetty.connectionpool.tests.ConnectionPoolTest.initialSetUp(ConnectionPoolTest.java:38) [INFO ][main]- Started Testing ConnPoolMySqlImpl
+[22:38:23] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager.isEmpty(ConnectionPoolManager.java:163) [DEBUG][main]- Check for available connections in the pool : true
+[22:38:23] com.sshetty.connectionpool.parentimpl.ConnectionManagerSqlImpl.createConnection(ConnectionManagerSqlImpl.java:33) [ERROR][main]- com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+[22:38:23] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager.getConnection(ConnectionPoolManager.java:82) [ERROR][main]- java.lang.NullPointerException
+[22:38:23] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager.getStatistics(ConnectionPoolManager.java:184) [INFO ][main]- ThreadId:1 Connection pool size for ds1 is :0
+[22:38:23] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager.getStatistics(ConnectionPoolManager.java:185) [INFO ][main]- ThreadId:1 Connection Created New for ds1 is :0
+[22:38:23] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager.getStatistics(ConnectionPoolManager.java:186) [INFO ][main]- ThreadId:1 Connection Used for ds1 is :0
+</system-out>
+  </testcase>
+  <testcase time="0.003" classname="com.sshetty.connectionpool.tests.ConnectionPoolTest" name="getStatisticsTruePositive"/>
+  <testcase time="0.001" classname="com.sshetty.connectionpool.tests.ConnectionPoolTest" name="testCreateConnectionNegative"/>
+  <testcase time="0.004" classname="com.sshetty.connectionpool.tests.ConnectionPoolTest" name="testReleaseConnectionTruePositive">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.sshetty.connectionpool.tests.ConnectionPoolTest.testReleaseConnectionTruePositive(ConnectionPoolTest.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:119)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</failure>
+    <system-out>[22:38:23] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager.createConnectionPools(ConnectionPoolManager.java:227) [DEBUG][main]- Pools created :2
+[22:38:23] com.sshetty.connectionpool.tests.ConnectionPoolTest.initialSetUp(ConnectionPoolTest.java:38) [INFO ][main]- Started Testing ConnPoolMySqlImpl
+[22:38:23] com.sshetty.connectionpool.parentimpl.ConnectionManagerSqlImpl.createConnection(ConnectionManagerSqlImpl.java:33) [ERROR][main]- com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+[22:38:23] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager.getStatistics(ConnectionPoolManager.java:184) [INFO ][main]- ThreadId:1 Connection pool size for ds1 is :0
+[22:38:23] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager.getStatistics(ConnectionPoolManager.java:185) [INFO ][main]- ThreadId:1 Connection Created New for ds1 is :0
+[22:38:23] com.sshetty.connectionpool.parentimpl.ConnectionPoolManager.getStatistics(ConnectionPoolManager.java:186) [INFO ][main]- ThreadId:1 Connection Used for ds1 is :0
+</system-out>
+  </testcase>
+  <testcase time="0.001" classname="com.sshetty.connectionpool.tests.ConnectionPoolTest" name="purgeConnectionsTruePositive"/>
+  <testcase time="0.001" classname="com.sshetty.connectionpool.tests.ConnectionPoolTest" name="testReleaseConnectionInvalidPoolName"/>
+</testsuite>
